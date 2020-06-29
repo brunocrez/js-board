@@ -1,0 +1,65 @@
+html {
+    font-family: 'Roboto';
+}
+
+body {
+    background-color: #272320;
+    color: #f3ede9;
+}
+
+.boards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.board {
+    background-color: #63605e;
+    border: 1px solid #f1995e80;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.board h3 {
+    padding: 18px;
+    margin: 0;
+    color: #f57d59;
+}
+
+.dropzone {
+    min-width: 300px;
+    min-height: 180px;
+    padding: 18px;
+}
+
+.card {
+    padding: 18px;
+    border-radius: 5px;
+    background-color: #3a3938;
+    font-size: 16px;
+    box-shadow: 0 2px 2px -1px #fd951fcc;
+}
+
+.status {
+    width: 32px;
+    height: 8px;
+    background-color: red;
+    border-radius: 5px;
+    margin-bottom: 18px;
+}
+
+.status.green {
+    background-color: green;
+}
+
+.status.red {
+    background-color: red;
+}
+
+.status.blue {
+    background-color: blue;
+}
+
+.status.yellow {
+    background-color: yellow;
+}
