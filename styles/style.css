@@ -72,3 +72,7 @@ body {
 .dropzone {
     transition: 300ms;
 }
+
+.over {
+    background-color: rgba(204, 247, 165, 0.2);
+}
