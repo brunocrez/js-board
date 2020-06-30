@@ -63,3 +63,12 @@ body {
 .status.yellow {
     background-color: yellow;
 }
+
+.highlight {
+    background-color: #443c37;
+}
+
+.card,
+.dropzone {
+    transition: 300ms;
+}
