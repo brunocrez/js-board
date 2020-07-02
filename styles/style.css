@@ -38,6 +38,7 @@ body {
     background-color: #3a3938;
     font-size: 16px;
     box-shadow: 0 2px 2px -1px #fd951fcc;
+    margin: 12px 0;
 }
 
 .status {
